@@ -13,7 +13,7 @@ def import_custom_nodes() -> None:
     """
     import asyncio
     import execution
-    from nodes import init_custom_nodes
+    from nodes import init_extra_nodes as init_custom_nodes
     import server
 
     # Creating a new event loop and setting it as the default loop
